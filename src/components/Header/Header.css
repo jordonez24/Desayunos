@@ -1,0 +1,53 @@
+.header {
+    background-image: url('../../assets/pantallaglobal.png'); /* Cambia a tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-content {
+    margin-top: 300px;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+}
+
+.call-button {
+    background-color: #e49e4e;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}   

@@ -1,0 +1,79 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilos de navegación */
+nav {
+  background-color: hsl(38, 54%, 61%); /* Verde */
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ddd; /* Color de hover */
+}
+
+/* Estilos del contenido */
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header {
+  background-color: #f4f4f4; /* Color del encabezado */
+}
+
+footer {
+  background-color: #333; /* Color del pie de página */
+  color: white;
+}
+
+/* Estilos para las rutas */
+h2 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Ajustes para el carrito */
+.carrito {
+  padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+}
